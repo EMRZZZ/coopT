@@ -8,7 +8,7 @@ url = arg[0][1]
 
 
 def checkURL(url):
-    if re.match('b|a', url):
+    if re.match('.|<|>', url):
         print("ok")
     else:
         print("failed")
